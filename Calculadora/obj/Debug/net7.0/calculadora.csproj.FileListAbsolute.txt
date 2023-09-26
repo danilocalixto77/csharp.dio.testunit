@@ -1,0 +1,14 @@
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\bin\Debug\net7.0\calculadora.exe
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\bin\Debug\net7.0\calculadora.deps.json
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\bin\Debug\net7.0\calculadora.runtimeconfig.json
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\bin\Debug\net7.0\calculadora.dll
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\bin\Debug\net7.0\calculadora.pdb
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.AssemblyInfoInputs.cache
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.AssemblyInfo.cs
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.csproj.CoreCompileInputs.cache
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.dll
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\refint\calculadora.dll
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.pdb
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\calculadora.genruntimeconfig.cache
+C:\Projetos\CSharp\dio\ModuloTesteUnitCSharp\Calculadora\obj\Debug\net7.0\ref\calculadora.dll
