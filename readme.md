@@ -42,9 +42,7 @@
   - Ir para a pasta do ProjetoTeste e executar:
     - dotnet test
     - Apos executar os testes analisar os resultados.
-    - Esperado:
-    - Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
-    - Outro resultado possível: 
+      - Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
       - Com falha! – Com falha:     1, Aprovado:     0, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
 	
 
