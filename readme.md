@@ -1,5 +1,51 @@
 # Testes Unitário com C#
 
+## Testes Unitário com C#
+
+### Introdução
+
+  Aprender os principais conceitos de testes unitário, seu objetivo e sua importanacia em qualue projeto, indpendente de seu tamanho. Visando aumentar o índice de qualidade
+
+### Introdução testes de software
+
+  Há vários tipos de teste de software: **unitários, integração, regressivo, segurança** e etc... 
+
+  Os testes são fundamentais para garantir a qualidade. Sevindo principalmente para garantir se o que foi desenvolvido está de acordo com o esperado.
+  
+### Introdução testes unitários
+
+  
+  
+
+Vantagens dos testes
+
+Frameworks de teste
+
+Criando nosso projeto
+
+Implementando a classe calculadora
+
+Criando a classe de teste
+
+Implementando o teste unitário
+
+Validando o teste
+
+Implementando validações de string
+
+Verificando se um número é par
+
+Utilizando o Theory
+
+Refatorando o método de teste
+
+Finalização
+
+Materiais de apoio
+Certifique seu conhecimento
+
+
+
 - Frameworks de teste
   - MSTest
   - NUnit
@@ -42,7 +88,9 @@
   - Ir para a pasta do ProjetoTeste e executar:
     - dotnet test
     - Apos executar os testes analisar os resultados.
-      - Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
+    - Esperado:
+    - Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
+    - Outro resultado possível: 
       - Com falha! – Com falha:     1, Aprovado:     0, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
 	
 

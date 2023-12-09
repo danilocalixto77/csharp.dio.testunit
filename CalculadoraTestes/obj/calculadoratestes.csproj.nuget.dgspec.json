@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\calculadoratestes\\calculadoratestes.csproj": {}
+    "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\CalculadoraTestes\\calculadoratestes.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\calculadoratestes\\calculadoratestes.csproj": {
+    "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\CalculadoraTestes\\calculadoratestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\calculadoratestes\\calculadoratestes.csproj",
+        "projectUniqueName": "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\CalculadoraTestes\\calculadoratestes.csproj",
         "projectName": "calculadoratestes",
-        "projectPath": "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\calculadoratestes\\calculadoratestes.csproj",
+        "projectPath": "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\CalculadoraTestes\\calculadoratestes.csproj",
         "packagesPath": "C:\\Users\\Danilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\calculadoratestes\\obj\\",
+        "outputPath": "C:\\Projetos\\CSharp\\dio\\ModuloTesteUnitCSharp\\CalculadoraTestes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -68,8 +68,6 @@ public class CalculadoraImpTests
 
         //Assert
         Assert.True(resultado);
-
-
     }
 
     [Theory]
