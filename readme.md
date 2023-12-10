@@ -16,6 +16,7 @@
 
   Teste unitário é um teste normalmente realizado pelo próprio desenvolvedor diretamente no código fonte, visando testar a menor unidade de código possível, através de cenários que podem ocorrer no sistema.
 
+  Em testes unitários é importantes executar em testes positivos e negativos. Com por exemplo o cadatro de um clientes e que possui todos os seus dados válidos e negativos em que falta alguma informção obrigatória ou se alguma informação está inválida.
 
 
   
