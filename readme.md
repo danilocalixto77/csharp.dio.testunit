@@ -222,14 +222,38 @@
   **Positivo**:
 
   Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
-    - Outro resultado possível: 
+  
+### Validando o teste
+
+  O método **Somar** agora está coberto com um caso teste, vamos simular com mais de uma forma:
+
+  Método Somar:
+  
+  ```
+  public class CalculadoraImp
+  {
+      public int Somar(int num1, int num2)
+      {
+          return num1 + num2 + 1;
+      }
+
+      public bool EhPar(int num)
+      {
+          return num % 2 == 0;
+      }
+  }
+  ```
   
   **Negativo**:
 
+  ```
+  Mensagem de erro:
+  Assert.Equal() Failure
+  Expected: 15
+  Actual:   16
+  ...
   Com falha! – Com falha:     1, Aprovado:     0, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
-
-
-### Validando o teste
+  ```
 
 ### Implementando validações de string
 
