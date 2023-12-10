@@ -71,7 +71,79 @@
 
 ### Implementando a classe calculadora
 
+  Crie uma **pasta** chamada **Services** dentro da pasta do projeto console, e logo em seguida a classe desejada.
+
+  ```
+  ..\Calculadora
+  ```
+
+  ```
+  ..\Calculadora\Services\CalculadoraImp.cs
+  ```
+
+  Crie um método simples pa efetuar a soma entre duas variáveis.
+
+  ```
+  public class CalculadoraImp
+  {
+      public int Somar(int num1, int num2)
+      {
+          return num1 + num2;
+      }
+  }
+  ```
+
+  No Program.cs execute o instacie e chame o método
+
+  ```
+  CalculadoraImp c = new CalculadoraImp();
+
+  int num1 = 5;
+  int num2 = 10;
+
+  System.Console.WriteLine($"{num1} + {num2} = {c.Somar(num1, num2)}");
+  ```
+
 ### Criando a classe de teste
+
+  Agora iremos para o projeto de teste.
+
+  ```
+  ..\CalculadoraTestes
+  ```
+
+  Na criação do projeto xunit por padrão foi criado uma  classe: **UnitTest1.cs**, essa mesma classe nos iremos reutilizar. Renomei-a para seu uso de acordo com a necessidade. Para o nosso cenário pasará a chamar: **CalculadoraTests.cs**.  E para casa classe que existir no projeto de principal, devemos ter pelo menos uma classe de teste equivalente a ela.
+
+  Podemos observar que o que temos é uma classe, e dentro dessa classe temos métodos que possuem uma chamada: **[Fact]**
+
+  ```
+  [Fact]
+  public void DeveSomar5com10ERetornar15()
+  {
+      //Arange
+      int num1 = 5;
+      int num2 = 10;
+
+      //Act
+      int resultado = _calc.Somar(num1, num2);
+
+      //Assert
+      Assert.Equal(15, resultado);
+  }
+  ```
+
+  O nome do método deverá sub-entender o que o teste deverá fazer e obter de resultado.
+  
+  Metodologia a utilizar:
+  
+  **Arrange**: serve para montar o cenário. Exemplo disponibilizar os recursos ou atributos para o teste.
+
+  **Act**: É a ação do cenário, executar o cenário proposto.
+  
+  **Assert**: É a validação se o cenário executado retornou o resultado esperado.
+
+
+
 
 ### Implementando o teste unitário
 
@@ -97,17 +169,6 @@
 
 
     
-- Criando a classe de teste
-  - Na criação do projeto xunit por padrão cria uma classe:
-    - UnitTest1.cs 
-    - A mesma pode ser reutilizada no primeiro momento. Renomei-a para seu uso de acordo com a necessidade.
-  - A classe de teste possue uma notação chamada:
-    - [Fact]
-    - O nome do método deverá sub-entender o que o teste deverá fazer e obter de resultado.
-    - Metodologia a utilizar:
-      - Arrange: serve para montar o cenário. Exemplo disponibilizar os recursos ou atributos para o teste.
-      - Act: É a ação do cenário, executar o cenário proposto.
-      - Assert: É a validação se o cenário executado retornou o resultado esperado.
 
 - Implementando o teste unitário.
   - Após desenvolver o código de teste seguindo a metodologia e passos:
