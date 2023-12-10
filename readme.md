@@ -18,44 +18,31 @@
 
   Em testes unitários é importantes executar em testes positivos e negativos. Com por exemplo o cadatro de um clientes e que possui todos os seus dados válidos e negativos em que falta alguma informção obrigatória ou se alguma informação está inválida.
 
+### Vantagens dos testes
 
+  A maior vantagem é a qualidade, que é um quesito que deve ser inegociável.
+
+  Garante que suas alteração não tenha impactos no sistema.
+
+  Menos bugs.
+
+  Maior confiança de funcionamento do sistema.
+
+  Prevenir problemas futuros.
+
+### Frameworks de teste
   
+  **MSTest**: Microsoft Test
+
+  **NUnit**
   
+  **xUnit**: É um dos mais utilizados no mercado, contem uma vasta documentação. Mas isso não quer dizer que seja melhor que os outros.
 
-Vantagens dos testes
+  Para cada projeto o C# gera um **Projeto.csproj** (tipo console). Para os testes comumente é criado um **ProjetoTests.csproj** (tipo xUnit). E para este exemplo pode-se utilizar uma Solution .sln. Para agrupar os projetos.
 
-Frameworks de teste
-
-Criando nosso projeto
-
-Implementando a classe calculadora
-
-Criando a classe de teste
-
-Implementando o teste unitário
-
-Validando o teste
-
-Implementando validações de string
-
-Verificando se um número é par
-
-Utilizando o Theory
-
-Refatorando o método de teste
-
-Finalização
-
-Materiais de apoio
-Certifique seu conhecimento
+### Criando nosso projeto
 
 
-
-- Frameworks de teste
-  - MSTest
-  - NUnit
-  - xUnit - É amplamente atualizado e com bastante documentações.
-  - Para cada projeto o C# gera um Projeto.csproj (tipo console). Para os testes comumente é criado um ProjetoTests.csproj (tipo xUnit). E para este exemplo pode-se utilizar um Solution .sln. Para agrupar os projetos.
 
 - Criando nosso projeto
   - Cria uma pasta para o projeto.
@@ -74,6 +61,35 @@ Certifique seu conhecimento
     - Após a criação da solution, adicionar os dois projetos na solution.
   - Uma referência deve ser adicionada no ProjetoTeste para o Projeto. Dizendo entre os projetos que o projeto de teste conhece do projeto.
     - Este procedimento pode ser feito através do ícona da extensão de solution, clicando o botão direito do mouse em cima do ProjetoTeste e selecionando a opção de "Add Reference".
+
+
+### Implementando a classe calculadora
+
+### Criando a classe de teste
+
+### Implementando o teste unitário
+
+### Validando o teste
+
+### Implementando validações de string
+
+### Verificando se um número é par
+
+### Utilizando o Theory
+
+### Refatorando o método de teste
+
+### Finalização
+
+## Materiais de apoio e Questionário
+
+### Materiais de apoio
+
+### Certifique seu conhecimento
+
+
+
+
     
 - Criando a classe de teste
   - Na criação do projeto xunit por padrão cria uma classe:
