@@ -170,10 +170,64 @@
 
       //Assert
   }
-
-
+  ```
 
 ### Implementando o teste unitário
+
+  No Arrange determinamos o que iremos passar para o método, para o nosso exemplo que está testando o método Somar será então:
+
+  ```
+  //Arange
+  int num1 = 5;
+  int num2 = 10;
+  ```
+
+  No Act será a ação o agir a chamada para executar o método a ser testado:
+
+  ```
+  //Act
+  int resultado = _calc.Somar(num1, num2);
+  ```
+
+  No Assert será a validação se o retorno do método é o esperado:
+  ```
+  //Assert
+  Assert.Equal(15, resultado);
+  ```
+
+  Método completo, e lembrando que o que identifica como um método de teste é o **[Fact]**:
+
+  ```
+  [Fact]
+  public void DeveSomar5com10ERetornar15()
+  {
+      //Arange
+      int num1 = 5;
+      int num2 = 10;
+
+      //Act
+      int resultado = _calc.Somar(num1, num2);
+
+      //Assert
+      Assert.Equal(15, resultado);
+  }
+  ```
+
+  Dentro da pasta: **CalculadoraTestes**, execute o comando abaixo:
+
+  ```
+  dotnet test
+  ```
+
+  **Positivo**:
+
+  Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
+    - Outro resultado possível: 
+  
+  **Negativo**:
+
+  Com falha! – Com falha:     1, Aprovado:     0, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
+
 
 ### Validando o teste
 
@@ -198,16 +252,7 @@
 
     
 
-- Implementando o teste unitário.
-  - Após desenvolver o código de teste seguindo a metodologia e passos:
-    - Arrange -> Act -> Assert
-  - Ir para a pasta do ProjetoTeste e executar:
-    - dotnet test
-    - Apos executar os testes analisar os resultados.
-    - Esperado:
-    - Aprovado!  – Com falha:     0, Aprovado:     1, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
-    - Outro resultado possível: 
-      - Com falha! – Com falha:     1, Aprovado:     0, Ignorado:     0, Total:     1, Duração: < 1 ms - calculadoratestes.dll (net7.0)
+
 	
 
   
