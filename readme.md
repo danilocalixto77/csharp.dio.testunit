@@ -139,9 +139,37 @@
   **Arrange**: serve para montar o cenário. Exemplo disponibilizar os recursos ou atributos para o teste.
 
   **Act**: É a ação do cenário, executar o cenário proposto.
-  
+
   **Assert**: É a validação se o cenário executado retornou o resultado esperado.
 
+  Para desenvolvermos o método devemos instanciar a classe onde ele está:
+
+  ```
+  using Calculadora.Services;
+  ```
+
+  Posteriormente criar um construtor:
+
+  ```
+  private CalculadoraImp _calc;
+  public CalculadoraImpTests()
+  {
+      _calc = new CalculadoraImp();
+  }
+  ```
+
+  E agora no método de teste apliar a metodologia com: Arrange, Act, Assert.
+
+  ```
+  [Fact]
+  public void DeveSomar5com10ERetornar15()
+  {
+      //Arange
+      
+      //Act
+
+      //Assert
+  }
 
 
 
