@@ -42,26 +42,32 @@
 
 ### Criando nosso projeto
 
+  Cria uma pasta para o projeto. Exemplo: ..**ModuloTesteUnitCSharp** em seguida crie a pasta do Projeto e a pasta para o ProjetoTeste. Antes de executar qualquer um dos comandos para criação so projetos, certifique-se de estar dentro da pasta/sub-pasta criada para cada projeto.
 
+  Criar sub-pastas para o projeto:
 
-- Criando nosso projeto
-  - Cria uma pasta para o projeto.
-    - Exemplo: ModuloTesteUnit
-  - Criar sub-pastas para o projeto e o projeto teste.
-    - Exemplo: Projeto   
-    - Exemplo: ProjetoTestes
-  - Criar o novo projeto na pasta .\Projeto
-    - Exemplo: dotnet new console
-  - Criar o novo projeto na pasta .\ProjetoTestes
-    - Exemplo: dotnet new xunit
-  - Ir para a pasta principal e cria uma Solution.
-    - Solution pode ser criada pela extensão:
-      - vscode-solution-explorer
-      - Identificador fernandoescolar.vscode-solution-explorer
-    - Após a criação da solution, adicionar os dois projetos na solution.
-  - Uma referência deve ser adicionada no ProjetoTeste para o Projeto. Dizendo entre os projetos que o projeto de teste conhece do projeto.
-    - Este procedimento pode ser feito através do ícona da extensão de solution, clicando o botão direito do mouse em cima do ProjetoTeste e selecionando a opção de "Add Reference".
+  ```
+  dotnet new console
+  ```
+  
+  Criar sub-pastas para o projeto teste:.
 
+  ```
+  dotnet new xunit
+  ```
+  Ir para a pasta principal os projetos e criar uma Solution.
+
+  **Solution** pode ser criada pela extensão:
+  
+  ```
+  vscode-solution-explorer
+  Identificador fernandoescolar.vscode-solution-explorer
+  ```
+  Após a criação da solution, adicionar os dois projetos na solution.
+  
+  Uma referência deve ser adicionada no ProjetoTeste para o Projeto. Dizendo entre os projetos que o projeto de teste conhece do projeto.
+  
+  Este procedimento pode ser feito através do ícona da extensão de solution, clicando o botão direito do mouse em cima do ProjetoTeste e selecionando a opção de "Add Reference".
 
 ### Implementando a classe calculadora
 
