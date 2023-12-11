@@ -333,7 +333,7 @@
 
   É um conjunto de dados que é passado para o método validar ao mesmo tempo.
 
-  Para validar inicialmente substituiremos a notação **[Fact]** por **[Theory]** e outra notação deve ser inserida logo abaixo que é **[InlineData]**, veja o exemplo abaixo:
+  Para validar inicialmente substituiremos a notação **[Fact]** por **[Theory]** o Theory permite a validação de vários cenários em sequência. Outra notação deve ser inserida logo abaixo que é **[InlineData]**, o veja o exemplo abaixo:
 
   ```
   [Theory]
@@ -341,6 +341,7 @@
   [InlineData(4)]
   [InlineData(6)]
   [InlineData(8)]
+  [InlineData(9)]
   [InlineData(10)]
   public void DeveVerificarSeOsNumeroSaoParesERetornarVerdadeiro(int numero)
   {
@@ -352,9 +353,20 @@
   }
   ```
 
-
-
 ### Refatorando o método de teste
+
+  Como todos os numero são inteiros podemos ao invés de executar o InlineData podemos inserir todos os números em um Array.
+
+  ```
+  [Theory]
+  [InlineData(new int[] { 2, 4 })]
+  [InlineData(new int[] { 6, 8, 10 })]
+  public void DeveVerificarSeOsNumeroSaoParesERetornarVerdadeiroLista(int[] numeros)
+  {
+      //Act //Assert 
+      Assert.All(numeros, num => Assert.True(_calc.EhPar(num)));
+  }
+  ```
 
 ### Finalização
 
