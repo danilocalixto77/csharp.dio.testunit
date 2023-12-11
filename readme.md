@@ -257,6 +257,48 @@
 
 ### Implementando validações de string
 
+  Método para trabalhar com string
+
+  ```
+  public class ValidacoesString
+  {
+      public int ContarCaracteres(string texto)
+      {
+          int num = texto.Length;
+          return num;
+      }
+  }
+  ```
+
+  Aplicando testes:
+
+  ```
+  public class ValidacoesStringTests
+  {
+      private ValidacoesString _validacoes;
+
+      public ValidacoesStringTests()
+      {
+          _validacoes = new ValidacoesString();
+      }
+
+      [Fact]
+      public void DeveContar3CaractereEmOlaERetornar3()
+      {
+          //Arrange
+          string texto = "Ola";
+
+          //Act
+          int resultado = _validacoes.ContarCaracteres(texto);
+
+          //Assert
+          Assert.Equal(3, resultado);
+      }
+
+  }
+  ```
+     
+
 ### Verificando se um número é par
 
 ### Utilizando o Theory
