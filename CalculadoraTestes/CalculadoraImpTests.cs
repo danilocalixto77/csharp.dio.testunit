@@ -60,6 +60,7 @@ public class CalculadoraImpTests
     [InlineData(4)]
     [InlineData(6)]
     [InlineData(8)]
+    //[InlineData(9)]
     [InlineData(10)]
     public void DeveVerificarSeOsNumeroSaoParesERetornarVerdadeiro(int numero)
     {
@@ -71,9 +72,9 @@ public class CalculadoraImpTests
     }
 
     [Theory]
-    [InlineData(new int[] { 2, 4 })]
+    [InlineData(new int[] { 2, 4, })]
     [InlineData(new int[] { 6, 8, 10 })]
-    public void DeveVerificarSeOsNumeroSãoParesERetornarVerdadeiroLista(int[] numeros)
+    public void DeveVerificarSeOsNumeroSaoParesERetornarVerdadeiroLista(int[] numeros)
     {
         //Assert
         Assert.All(numeros, num => Assert.True(_calc.EhPar(num)));
