@@ -297,11 +297,62 @@
 
   }
   ```
-     
 
 ### Verificando se um número é par
 
+  Método na CalculadoraImp.cs
+
+  ```
+  public bool EhPar(int num)
+  {
+    return num % 2 == 0;
+  }
+
+  ```
+
+  Teste aplicado:
+
+  ```
+  [Fact]
+  public void DeveVerificarSe4EhParRetornaVerdadeiro()
+  {
+      //Arrange
+      int numero = 4;
+
+      //Act
+      bool resultado = _calc.EhPar(numero);
+
+      //Assert
+      Assert.True(resultado);
+
+  }
+  
+  ```
+
 ### Utilizando o Theory
+
+  É um conjunto de dados que é passado para o método validar ao mesmo tempo.
+
+  Para validar inicialmente substituiremos a notação **[Fact]** por **[Theory]** e outra notação deve ser inserida logo abaixo que é **[InlineData]**, veja o exemplo abaixo:
+
+  ```
+  [Theory]
+  [InlineData(2)]
+  [InlineData(4)]
+  [InlineData(6)]
+  [InlineData(8)]
+  [InlineData(10)]
+  public void DeveVerificarSeOsNumeroSaoParesERetornarVerdadeiro(int numero)
+  {
+      //Act
+      bool resultado = _calc.EhPar(numero);
+
+      //Assert
+      Assert.True(resultado);
+  }
+  ```
+
+
 
 ### Refatorando o método de teste
 

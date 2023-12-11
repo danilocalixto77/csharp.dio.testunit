@@ -61,7 +61,7 @@ public class CalculadoraImpTests
     [InlineData(6)]
     [InlineData(8)]
     [InlineData(10)]
-    public void DeveVerificarSeOsNumeroSãoParesERetornarVerdadeiro(int numero)
+    public void DeveVerificarSeOsNumeroSaoParesERetornarVerdadeiro(int numero)
     {
         //Act
         bool resultado = _calc.EhPar(numero);
